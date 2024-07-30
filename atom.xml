@@ -6,7 +6,7 @@
   <link href="https://zix1a.github.io/atom.xml" rel="self"/>
   
   <link href="https://zix1a.github.io/"/>
-  <updated>2024-07-30T05:38:21.668Z</updated>
+  <updated>2024-07-30T07:26:35.716Z</updated>
   <id>https://zix1a.github.io/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="https://zix1a.github.io/posts/4f35bc.html"/>
     <id>https://zix1a.github.io/posts/4f35bc.html</id>
     <published>2024-07-30T05:27:46.000Z</published>
-    <updated>2024-07-30T05:38:21.668Z</updated>
+    <updated>2024-07-30T07:26:35.716Z</updated>
     
-    <content type="html"><![CDATA[<p>markdown语法与外挂标签写法https://www.fomal.cc/posts/2013454d.html</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="写在最前面"><a href="#写在最前面" class="headerlink" title="写在最前面"></a>写在最前面</h2><p>博客雏形使用的是hexo+butterfly，仓库部署在github上，服务器也是用github。<br>特别致谢大佬fomalhaut的开源模版，点进我的通讯录即可进入他的主页。<br><img src="https://pic.imgdb.cn/item/66a88ee0d9c307b7e9e6fd3d.png" alt="fomalhaut"></p><h2 id="butterfly定制版markdown"><a href="#butterfly定制版markdown" class="headerlink" title="butterfly定制版markdown"></a>butterfly定制版markdown</h2><p>这里仅写出与常规markdown不同的地方。</p><p>参考文章：<a href="https://www.fomal.cc/posts/2013454d.html">markdown语法与外挂标签写法</a></p><p><a href="https://akilar.top/posts/615e2dec/">外挂标签插件</a></p><p>本来想在这里写，但写着写着发现太多了，之后我会专门出一篇笔记写butterfly+markdown语法。</p><h2 id="上传改动"><a href="#上传改动" class="headerlink" title="上传改动"></a>上传改动</h2><p>在根目录下打开git bash，依次<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo c</span><br><span class="line">hexo <span class="selector-tag">g</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p><h2 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h2><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> “hello world”</span><br></pre></td></tr></table></figure><p>在根目录\source\posts里查看。</p><h2 id="图片转化成web链接"><a href="#图片转化成web链接" class="headerlink" title="图片转化成web链接"></a>图片转化成web链接</h2><p>笔者第一次傻不拉几地把本地图片后缀名改成.webp，这是错的！推荐一个免费转换网站： <a href="https://www.superbed.cn/">点击这里</a></p><h2 id="修改页尾布局（footer）"><a href="#修改页尾布局（footer）" class="headerlink" title="修改页尾布局（footer）"></a>修改页尾布局（footer）</h2><p>根目录\themes\butterfly\layout\includes\footer.pug</p><h2 id="修改各专栏内容"><a href="#修改各专栏内容" class="headerlink" title="修改各专栏内容"></a>修改各专栏内容</h2><p>根目录\source</p><h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2><p>很多版块尚未开发，等以后来补全~</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;markdown语法与外挂标签写法https://www.fomal.cc/posts/2013454d.html&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h2 id=&quot;写在最前面&quot;&gt;&lt;a href=&quot;#写在最前面&quot; class=&quot;headerlink&quot; title=&quot;写在最前面&quot;&gt;&lt;/a&gt;写在最前面&lt;/h2&gt;&lt;p&gt;博客雏形使用的是hexo+butterfly，仓库部署在github上，服务器也是用github。&lt;br&gt;特别致谢大</summary>
       
     
     
@@ -42,15 +41,15 @@
     <link href="https://zix1a.github.io/posts/d4a1185.html"/>
     <id>https://zix1a.github.io/posts/d4a1185.html</id>
     <published>2024-07-29T08:18:56.000Z</published>
-    <updated>2024-07-29T08:25:03.858Z</updated>
+    <updated>2024-07-30T07:27:12.783Z</updated>
     
-    <content type="html"><![CDATA[<p>等我学了markdown再来编辑</p>]]></content>
+    <content type="html"><![CDATA[<p>2024年7月29日，历经多次失败（主题不兼容、无法部署到github等问题）之后，我的小屋终于建设好啦！现在我激动地写下这句经典开局语：</p><h1 id="HELLO-WORLD-！"><a href="#HELLO-WORLD-！" class="headerlink" title="HELLO WORLD ！"></a>HELLO WORLD ！</h1>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;等我学了markdown再来编辑&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;2024年7月29日，历经多次失败（主题不兼容、无法部署到github等问题）之后，我的小屋终于建设好啦！现在我激动地写下这句经典开局语：&lt;/p&gt;
+&lt;h1 id=&quot;HELLO-WORLD-！&quot;&gt;&lt;a href=&quot;#HELLO-WORLD-！&quot; class=&quot;headerli</summary>
       
     
     
