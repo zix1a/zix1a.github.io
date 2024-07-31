@@ -6,7 +6,7 @@
   <link href="https://zix1a.github.io/atom.xml" rel="self"/>
   
   <link href="https://zix1a.github.io/"/>
-  <updated>2024-07-31T10:48:55.154Z</updated>
+  <updated>2024-07-31T11:26:33.595Z</updated>
   <id>https://zix1a.github.io/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>想做的事</title>
+    <link href="https://zix1a.github.io/posts/cb503a50.html"/>
+    <id>https://zix1a.github.io/posts/cb503a50.html</id>
+    <published>2024-07-31T11:20:06.000Z</published>
+    <updated>2024-07-31T11:26:33.595Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="暑假">暑假</h2><div class='checkbox'><input type="checkbox" />            <p>把小屋建的更精美，主要指功能拓展</p>            </div><div class='checkbox'><input type="checkbox" />            <p>玩linux</p>            </div><div class='checkbox'><input type="checkbox" />            <p>保持良好的饮食，少吃零食和夜宵</p>            </div><div class='checkbox'><input type="checkbox" />            <p>每天去上跳舞课</p>            </div><div class='checkbox'><input type="checkbox" />            <p>拿下驾照</p>            </div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;暑假&quot;&gt;暑假&lt;/h2&gt;
+&lt;div class=&#39;checkbox&#39;&gt;&lt;input type=&quot;checkbox&quot; /&gt;
+            &lt;p&gt;把小屋建的更精美，主要指功能拓展&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;check</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>linux安装心得</title>
     <link href="https://zix1a.github.io/posts/6c8738e3.html"/>
     <id>https://zix1a.github.io/posts/6c8738e3.html</id>
     <published>2024-07-31T10:30:08.000Z</published>
-    <updated>2024-07-31T10:48:55.154Z</updated>
+    <updated>2024-07-31T11:14:35.493Z</updated>
     
-    <content type="html"><![CDATA[<p>linux安装的成功与否，究其根本，不过是一句话：看您的计算机是垮个批脸还是龙颜大悦。</p><p>HgFP：我安装虚拟机失败，放弃了，然后才用的windows linux子系统。</p><p>我：恰恰相反，先装windows linux子系统，弄了好久，最后登录闪退的问题解决不了，放弃了，去尝试虚拟机，没想到非常顺利。</p><p>如图是我尝试装子系统：<br><img src="https://pic.imgdb.cn/item/66aa147dd9c307b7e92a4b47.png" alt=""></p><p>现在不用了，但删也删不掉，只能留在电脑里了：<br><img src="ddafe17a23e567b61777691a2d53c8d.png" alt="alt text"></p><p>最后在虚拟机上安装了ubuntu，大功告成！<br>vmware主流的下载方法是在百度网盘上下，辣鸡百度网盘要下载9h，而它的同行阿里云盘秒了它，仅仅用了10min就biubiu光速下好！！<br>如图是ubuntu界面，里面竟然自带扫雷和国际象棋哈哈哈哈哈<br><img src="https://pic.imgdb.cn/item/66aa143ed9c307b7e92a1809.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>linux安装的成功与否，究其根本，不过是一句话：看您的计算机是垮个批脸还是龙颜大悦。</p><p>HgFP：我安装虚拟机失败，放弃了，然后才用的windows linux子系统。</p><p>我：恰恰相反，先装windows linux子系统，弄了好久，最后登录闪退的问题解决不了，放弃了，去尝试虚拟机，没想到非常顺利。</p><p>如图是我尝试装子系统：<br><img src="https://pic.imgdb.cn/item/66aa147dd9c307b7e92a4b47.png" alt=""></p><p>现在不用了，但删也删不掉，只能留在电脑里了：<br><img src="https://pic.imgdb.cn/item/66aa1c85d9c307b7e931c531.png" alt=""></p><p>最后在虚拟机上安装了ubuntu，大功告成！<br>vmware主流的下载方法是在百度网盘上下，辣鸡百度网盘要下载9h，而它的同行阿里云盘秒了它，仅仅用了10min就biubiu光速下好！！<br>如图是ubuntu界面，里面竟然自带扫雷和国际象棋哈哈哈哈哈<br><img src="https://pic.imgdb.cn/item/66aa143ed9c307b7e92a1809.png" alt=""></p>]]></content>
     
     
       
