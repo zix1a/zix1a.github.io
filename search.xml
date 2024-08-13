@@ -4,11 +4,37 @@
   
     
     <entry>
-      <title>操作系统linux笔记（1）</title>
+      <title>计算机网络-1</title>
+      <link href="/posts/6b13d18b.html"/>
+      <url>/posts/6b13d18b.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="对应第一章：概述">对应第一章：概述</h3><p>看的是湖南科技大学网课。</p><p><img src="https://pic.imgdb.cn/item/66baee94d9c307b7e97543e4.png" alt="1"></p><p><img src="https://pic.imgdb.cn/item/66baef18d9c307b7e975b847.png" alt="2"></p><p><img src="https://pic.imgdb.cn/item/66baf425d9c307b7e97aa9b7.png" alt=""></p><p>国内的isp主要指电信、联通、移动三家公司。</p><p><img src="https://pic.imgdb.cn/item/66baf468d9c307b7e97af376.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66baf47ad9c307b7e97b038f.png" alt=""></p><p>比特流是指由比特（二进制位）组成的数据流，它是计算机中处理和传输数据的最基本形式。比特流由0和1两种二进制数字组成，用来表示数据、指令或控制信息。比特流通常是以电信号或电磁波的形式在计算机网络中传输，以便在不同的计算机和设备之间进行数据交换。</p><p><img src="https://pic.imgdb.cn/item/66baf8ebd9c307b7e985460e.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66baf8d2d9c307b7e984ff23.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66baf8c0d9c307b7e984cd1e.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66baf8acd9c307b7e9848b0a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bafba8d9c307b7e9894480.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bafb7bd9c307b7e9891ace.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb0301d9c307b7e990851a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb0314d9c307b7e9909929.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb037cd9c307b7e990fd5a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb0355d9c307b7e990d44b.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb036bd9c307b7e990ec33.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb02e3d9c307b7e9906659.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb02cbd9c307b7e9904e4d.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb0740d9c307b7e99ad53a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb072cd9c307b7e99aa115.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb071ed9c307b7e99a74bb.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66bb0706d9c307b7e99a4a79.png" alt=""></p><p>学了好多知识点~</p><p>过几天再来复习</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统linux笔记-2</title>
+      <link href="/posts/33eb152c.html"/>
+      <url>/posts/33eb152c.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>操作系统linux笔记-1</title>
       <link href="/posts/3c9b1af4.html"/>
       <url>/posts/3c9b1af4.html</url>
       
-        <content type="html"><![CDATA[<p>8月1日晚，</p><p>此时正在听着lovesick girls伴奏，写着笔记~</p><p>此时樊振东正在奥运会上打比赛^_^</p><p>本文说的虚拟机不是指vmware这个平台，而是“一台装有linux的虚拟计算机”。</p><h2 id="ip地址">ip地址</h2><p>ip地址分为私有ip和公网ip。</p><p>网络分为局域网和广域网。</p><p>公网ip：不需要任何映射和转换。</p><p>私有ip：相当于12幢901，未知小区。</p><p>端口映射：几台计算机公用8.8.8.8这一个ip，会编号为：8.8.8.8:1000 ; 8.8.8.8:1100 <a href="http://xn--ip192-fq1hz1tyqetvwem1aef9afsb380algp144bwdo.168.xxx">而这几台计算机的真实ip为192.168.xxx</a><br>这个过程称为ip的端口映射。</p><h4 id="ipv4">ipv4</h4><p>4*8位二进制数，对应4个0~255的十进制数，成为192.168.0.1</p><h4 id="ipv8">ipv8</h4><h2 id="网络连接的3种模式">网络连接的3种模式</h2><h4 id="桥接模式">桥接模式</h4><p>相当于一台真的计算机，具有和真计算机平行的ip地址，但容易造成ip冲突。</p><h4 id="NAT模式">NAT模式</h4><p>主机真正ip：192.168.0.50</p><p>主机内部ip：192.168.100.99</p><p>虚拟机ip：192.168.100.88</p><p>网络地址转换模式，相当于代理，不造成ip冲突。</p><h4 id="主机模式">主机模式</h4><p>独立的系统，和外界无关。</p><h2 id="虚拟机克隆">虚拟机克隆</h2><p>方法1：直接copy整个文件夹，然后用vmware打开。</p><p>方法2：vmware里的克隆操作。克隆时要先关闭linux系统。</p><p>右击虚拟机→管理→克隆→创建完整克隆</p><h2 id="虚拟机快照">虚拟机快照</h2><p>异常时的时间回溯，相当于海诺大招。</p><p>右击虚拟机→快照→拍摄快照</p><p>右击虚拟机→快照→快照管理器→转到</p><h2 id="虚拟机迁移和删除">虚拟机迁移和删除</h2><p>虚拟机的本质是文件夹里的文件，迁移和删除就是把整个文件夹拷贝或删除。</p>]]></content>
+        <content type="html"><![CDATA[<p>8月1日晚，</p><p>此时正在听着lovesick girls伴奏，写着笔记~</p><p>此时樊振东正在奥运会上打比赛^_^</p><p>本文说的虚拟机不是指vmware这个平台，而是“一台装有linux的虚拟计算机”。</p><h2 id="ip地址">ip地址</h2><p>ip地址分为私有ip和公网ip。</p><p>网络分为局域网和广域网。</p><p>公网ip：不需要任何映射和转换。</p><p>私有ip：相当于12幢901，未知小区。</p><p>端口映射：几台计算机公用8.8.8.8这一个ip，会编号为：8.8.8.8:1000 ; 8.8.8.8:1100 <a href="http://xn--ip192-fq1hz1tyqetvwem1aef9afsb380algp144bwdo.168.xxx">而这几台计算机的真实ip为192.168.xxx</a><br>这个过程称为ip的端口映射。</p><h4 id="ipv4">ipv4</h4><p>4*8位二进制数，对应4个0~255的十进制数，成为192.168.0.1</p><h4 id="ipv8">ipv8</h4><h2 id="网络连接的3种模式">网络连接的3种模式</h2><h4 id="桥接模式">桥接模式</h4><p>相当于一台真的计算机，具有和真计算机平行的ip地址，但容易造成ip冲突。</p><h4 id="NAT模式">NAT模式</h4><p>主机真正ip：192.168.0.50</p><p>主机内部ip：192.168.100.99</p><p>虚拟机ip：192.168.100.88</p><p>网络地址转换模式，相当于代理，不造成ip冲突。</p><h4 id="主机模式">主机模式</h4><p>独立的系统，和外界无关。</p><h2 id="虚拟机克隆">虚拟机克隆</h2><p>方法1：直接copy整个文件夹，然后用vmware打开。</p><p>方法2：vmware里的克隆操作。克隆时要先关闭linux系统。</p><p>右击虚拟机→管理→克隆→创建完整克隆</p><h2 id="虚拟机快照">虚拟机快照</h2><p>异常时的时间回溯，相当于海诺大招。</p><p>右击虚拟机→快照→拍摄快照</p><p>右击虚拟机→快照→快照管理器→转到</p><h2 id="虚拟机迁移和删除">虚拟机迁移和删除</h2><p>虚拟机的本质是文件夹里的文件，迁移和删除就是把整个文件夹拷贝或删除。</p><h2 id="vmtools">vmtools</h2><p>设置windows和centos/ubuntu的共享文件夹。</p><h2 id="linux的目录结构">linux的目录结构</h2>]]></content>
       
       
       
