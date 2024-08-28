@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zix1a.github.io/posts/df2849ec.html</loc>
+    
+    <lastmod>2024-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/dfb97799.html</loc>
+    
+    <lastmod>2024-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/54ef836c.html</loc>
+    
+    <lastmod>2024-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zix1a.github.io/posts/cb503a50.html</loc>
     
     <lastmod>2024-08-27</lastmod>
@@ -12,24 +39,6 @@
   
   <url>
     <loc>https://zix1a.github.io/posts/de3adb5f.html</loc>
-    
-    <lastmod>2024-08-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zix1a.github.io/posts/54ef836c.html</loc>
-    
-    <lastmod>2024-08-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zix1a.github.io/posts/df2849ec.html</loc>
     
     <lastmod>2024-08-27</lastmod>
     
@@ -292,7 +301,7 @@
 
   <url>
     <loc>https://zix1a.github.io/</loc>
-    <lastmod>2024-08-27</lastmod>
+    <lastmod>2024-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
