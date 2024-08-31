@@ -6,7 +6,7 @@
   <link href="https://zix1a.github.io/atom.xml" rel="self"/>
   
   <link href="https://zix1a.github.io/"/>
-  <updated>2024-08-31T09:32:07.315Z</updated>
+  <updated>2024-08-31T15:47:03.978Z</updated>
   <id>https://zix1a.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://zix1a.github.io/posts/53d0684b.html"/>
     <id>https://zix1a.github.io/posts/53d0684b.html</id>
     <published>2024-08-31T02:41:28.000Z</published>
-    <updated>2024-08-31T09:32:07.315Z</updated>
+    <updated>2024-08-31T15:47:03.978Z</updated>
     
-    <content type="html"><![CDATA[<p>在失败了4次以后，终于成功运行了虚拟机ubuntu。看这个<a href="https://blog.csdn.net/lhl_blog/article/details/123406322">文档</a>，按照他一步一步来全解决了 </p><p>linux学习教程：</p><p>1.<a href="https://blog.csdn.net/bigbangbangbang1/article/details/131575669">一个精简的教程</a></p><p>2.<a href="https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/44.html">鸟哥</a></p><p>3.<a href="https://blog.csdn.net/qq_44755403/article/details/113819873">linux进阶</a></p><p>4.上一个教程对应的<a href="https://blog.csdn.net/qq_44755403/article/details/113757449">linux基础</a></p><p>5.<a href="https://blog.csdn.net/m0_74282605/article/details/130162670">linux内核学习路线</a></p><p>6.<a href="https://blog.csdn.net/jinking01/article/details/104547290">linux内核</a></p><p>7.b站韩顺平课程后面一部分很不错，用于补足以上教程没学到的部分</p><h2 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h2><p>全屏虚拟机：ctrl+alt+enter</p><p>光标移入虚拟机：ctrl+g</p><p>光标移出虚拟机：ctrl+alt</p><p>切换到root用户：su -</p><p>切换到一般用户：exit</p>]]></content>
+    <content type="html"><![CDATA[<p>在失败了4次以后，终于成功运行了虚拟机ubuntu。看这个<a href="https://blog.csdn.net/lhl_blog/article/details/123406322">文档</a>，按照他一步一步来全解决了</p><p>linux学习教程：</p><p>1.<a href="https://blog.csdn.net/bigbangbangbang1/article/details/131575669">一个精简的教程</a></p><p>2.<a href="https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/44.html">鸟哥</a></p><p>3.<a href="https://blog.csdn.net/qq_44755403/article/details/113819873">linux进阶</a></p><p>4.上一个教程对应的<a href="https://blog.csdn.net/qq_44755403/article/details/113757449">linux基础</a></p><p>5.<a href="https://blog.csdn.net/m0_74282605/article/details/130162670">linux内核学习路线</a></p><p>6.<a href="https://blog.csdn.net/jinking01/article/details/104547290">linux内核</a></p><p>7.b站韩顺平课程后面一部分很不错，用于补足以上教程没学到的部分</p><h2 id="常用指令">常用指令</h2><p>全屏虚拟机：ctrl+alt+enter</p><p>光标移入虚拟机：ctrl+g</p><p>光标移出虚拟机：ctrl+alt</p><p>切换到root用户：su -</p><p>切换到一般用户：exit</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;在失败了4次以后，终于成功运行了虚拟机ubuntu。看这个&lt;a href=&quot;https://blog.csdn.net/lhl_blog/article/details/123406322&quot;&gt;文档&lt;/a&gt;，按照他一步一步来全解决了 &lt;/p&gt;
-&lt;p&gt;linux学习教程：&lt;/p</summary>
+    <summary type="html">&lt;p&gt;在失败了4次以后，终于成功运行了虚拟机ubuntu。看这个&lt;a href=&quot;https://blog.csdn.net/lhl_blog/article/details/123406322&quot;&gt;文档&lt;/a&gt;，按照他一步一步来全解决了&lt;/p&gt;
+&lt;p&gt;linux学习教程：&lt;/p&gt;</summary>
       
     
     
