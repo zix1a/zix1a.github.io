@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Linux</title>
+      <link href="/posts/53d0684b.html"/>
+      <url>/posts/53d0684b.html</url>
+      
+        <content type="html"><![CDATA[<p>在失败了4次以后，终于成功运行了虚拟机ubuntu。看这个<a href="https://blog.csdn.net/lhl_blog/article/details/123406322">文档</a>，按照他一步一步来全解决了 </p><p>linux学习教程：</p><p>1.<a href="https://blog.csdn.net/bigbangbangbang1/article/details/131575669">一个精简的教程</a></p><p>2.<a href="https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/44.html">鸟哥</a></p><p>3.<a href="https://blog.csdn.net/qq_44755403/article/details/113819873">linux进阶</a></p><p>4.上一个教程对应的<a href="https://blog.csdn.net/qq_44755403/article/details/113757449">linux基础</a></p><p>5.<a href="https://blog.csdn.net/m0_74282605/article/details/130162670">linux内核学习路线</a></p><p>6.<a href="https://blog.csdn.net/jinking01/article/details/104547290">linux内核</a></p><p>7.b站韩顺平课程后面一部分很不错，用于补足以上教程没学到的部分</p><h2 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h2><p>全屏虚拟机：ctrl+alt+enter</p><p>光标移入虚拟机：ctrl+g</p><p>光标移出虚拟机：ctrl+alt</p><p>切换到root用户：su -</p><p>切换到一般用户：exit</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为了算法工程师的梦想！leetcode刷题集</title>
       <link href="/posts/6da4d456.html"/>
       <url>/posts/6da4d456.html</url>
@@ -21,7 +34,7 @@
       <link href="/posts/ab651916.html"/>
       <url>/posts/ab651916.html</url>
       
-        <content type="html"><![CDATA[<p>2024.8.28</p><p>1.Java学习推进了很多</p><p>各种父类子类的访问权限真的好难啊！！脑子是糊糊的，像itzy一样。</p><p>面向对象的逻辑还没有get到，从面向过程到面向对象，可能注定是个艰难的过程…</p><p>2.计算机网络看了书的第一章概述，一天一章没什么问题。</p><p>3.leetcode上刷了2道题</p><p>边刷题边复习数据结构与算法吧~编程之路任重道远^_^</p><p>巨大的优化工程之————用时间复杂度更小的方法做简单题</p><p>尽量快一点从C转型到C++吧，这样题解看起来也会方便得多</p><p>2024.8.29</p><p>1.做了迎新志愿者2.5h，热亖了需要降温-_-</p><p>2.leetcode每日两题，今日超额完成，写了4道</p><p>4.Java学习</p><p>遗留问题：构造器继承？类的public，private是什么意思？等学了更多java以后再来把完整的文档看一遍</p><p>5.没有看计网</p><p>2024.8.30</p><p>1.没有刷leetcode，但由于昨天超额完成了，所以进度没有落下</p><p>2.过了一遍菜鸟教程，写了一篇C++总结博客（STL部分再熟悉一下！）</p><p>3.新东方六级复习前一天的+推进50个</p><p>2024.8.31</p><p>1.操作系统linux</p>]]></content>
+        <content type="html"><![CDATA[<p>2024.8.28</p><p>1.Java学习推进了很多</p><p>各种父类子类的访问权限真的好难啊！！脑子是糊糊的，像itzy一样。</p><p>面向对象的逻辑还没有get到，从面向过程到面向对象，可能注定是个艰难的过程…..</p><p>2.计算机网络看了书的第一章概述，一天一章没什么问题。</p><p>3.leetcode上刷了2道题</p><p>边刷题边复习数据结构与算法吧~编程之路任重道远^_^</p><p>巨大的优化工程之————用时间复杂度更小的方法做简单题</p><p>尽量快一点从C转型到C++吧，这样题解看起来也会方便得多</p><p>2024.8.29</p><p>1.做了迎新志愿者2.5h，热亖了需要降温-_-</p><p>2.leetcode每日两题，今日超额完成，写了4道</p><p>4.Java学习 </p><p>遗留问题：构造器继承？类的public，private是什么意思？等学了更多java以后再来把完整的文档看一遍</p><p>5.没有看计网</p><p>2024.8.30</p><p>1.没有刷leetcode，但由于昨天超额完成了，所以进度没有落下</p><p>2.过了一遍菜鸟教程，写了一篇C++总结博客（STL部分再熟悉一下！）</p><p>2024.8.31</p><p>1.成功安装了操作系统linux！</p><p>2.新东方六级复习前一天的+推进50个</p>]]></content>
       
       
       
@@ -134,37 +147,11 @@
     
     
     <entry>
-      <title>操作系统linux笔记-1</title>
-      <link href="/posts/3c9b1af4.html"/>
-      <url>/posts/3c9b1af4.html</url>
-      
-        <content type="html"><![CDATA[<p>8月1日晚，</p><p>此时正在听着lovesick girls伴奏，写着笔记~</p><p>此时樊振东正在奥运会上打比赛^_^</p><p>本文说的虚拟机不是指vmware这个平台，而是“一台装有linux的虚拟计算机”。</p><h2 id="ip地址">ip地址</h2><p>ip地址分为私有ip和公网ip。</p><p>网络分为局域网和广域网。</p><p>公网ip：不需要任何映射和转换。</p><p>私有ip：相当于12幢901，未知小区。</p><p>端口映射：几台计算机公用8.8.8.8这一个ip，会编号为：8.8.8.8:1000 ; 8.8.8.8:1100 <a href="http://xn--ip192-fq1hz1tyqetvwem1aef9afsb380algp144bwdo.168.xxx">而这几台计算机的真实ip为192.168.xxx</a><br>这个过程称为ip的端口映射。</p><h4 id="ipv4">ipv4</h4><p>4*8位二进制数，对应4个0~255的十进制数，成为192.168.0.1</p><h4 id="ipv8">ipv8</h4><h2 id="网络连接的3种模式">网络连接的3种模式</h2><h4 id="桥接模式">桥接模式</h4><p>相当于一台真的计算机，具有和真计算机平行的ip地址，但容易造成ip冲突。</p><h4 id="NAT模式">NAT模式</h4><p>主机真正ip：192.168.0.50</p><p>主机内部ip：192.168.100.99</p><p>虚拟机ip：192.168.100.88</p><p>网络地址转换模式，相当于代理，不造成ip冲突。</p><h4 id="主机模式">主机模式</h4><p>独立的系统，和外界无关。</p><h2 id="虚拟机克隆">虚拟机克隆</h2><p>方法1：直接copy整个文件夹，然后用vmware打开。</p><p>方法2：vmware里的克隆操作。克隆时要先关闭linux系统。</p><p>右击虚拟机→管理→克隆→创建完整克隆</p><h2 id="虚拟机快照">虚拟机快照</h2><p>异常时的时间回溯，相当于海诺大招。</p><p>右击虚拟机→快照→拍摄快照</p><p>右击虚拟机→快照→快照管理器→转到</p><h2 id="虚拟机迁移和删除">虚拟机迁移和删除</h2><p>虚拟机的本质是文件夹里的文件，迁移和删除就是把整个文件夹拷贝或删除。</p><h2 id="vmtools">vmtools</h2><p>设置windows和centos/ubuntu的共享文件夹。</p><h2 id="linux的目录结构">linux的目录结构</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>想做的事</title>
       <link href="/posts/cb503a50.html"/>
       <url>/posts/cb503a50.html</url>
       
         <content type="html"><![CDATA[<h2 id="暑假">暑假</h2><div class='checkbox'><input type="checkbox" />            <p>把小屋建的更精美，主要指功能拓展</p>            </div><div class='checkbox'><input type="checkbox" />            <p>玩linux</p>            </div><div class='checkbox'><input type="checkbox" />            <p>保持良好的饮食，少吃零食和夜宵</p>            </div><div class='checkbox'><input type="checkbox" />            <p>每天去上跳舞课</p>            </div><div class='checkbox'><input type="checkbox" />            <p>拿下驾照</p>            </div><h2 id="以后">以后</h2><p>修炼成稚晖君！做极客！要有信心哦！</p><p>这学期学双倍的课！</p><div class='checkbox'><input type="checkbox" />            <p>面向对象程序设计oo：Java (python选)</p>            </div><div class='checkbox'><input type="checkbox" />            <p>数电</p>            </div><div class='checkbox'><input type="checkbox" />            <p>计网</p>            </div><div class='checkbox'><input type="checkbox" />            <p>深度学习</p>            </div><div class='checkbox'><input type="checkbox" />            <p>leetcode刷题</p>            </div><p>每天1~2道，不要放弃！</p><p>就像大佬说的，算法中最困难的其实是畏难情绪！</p><p>去试试蓝桥杯c++！</p><div class='checkbox'><input type="checkbox" />            <p>操作系统</p>            </div>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>linux安装心得</title>
-      <link href="/posts/6c8738e3.html"/>
-      <url>/posts/6c8738e3.html</url>
-      
-        <content type="html"><![CDATA[<p>linux安装的成功与否，究其根本，不过是一句话：看您的计算机是垮个批脸还是龙颜大悦。</p><p>HgFP：我安装虚拟机失败，放弃了，然后才用的windows linux子系统。</p><p>我：恰恰相反，先装windows linux子系统，弄了好久，最后登录闪退的问题解决不了，放弃了，去尝试虚拟机，没想到非常顺利。</p><p>如图是我尝试装子系统：<br><img src="https://pic.imgdb.cn/item/66aa147dd9c307b7e92a4b47.png" alt=""></p><p>现在不用了，但删也删不掉，只能留在电脑里了：<br><img src="https://pic.imgdb.cn/item/66aa1c85d9c307b7e931c531.png" alt=""></p><p>最后在虚拟机上安装了ubuntu，大功告成！<br>vmware主流的下载方法是在百度网盘上下，辣鸡百度网盘要下载9h，而它的同行阿里云盘秒了它，仅仅用了10min就biubiu光速下好！！<br>如图是ubuntu界面，里面竟然自带扫雷和国际象棋哈哈哈哈哈<br><img src="https://pic.imgdb.cn/item/66aa143ed9c307b7e92a1809.png" alt=""></p>]]></content>
       
       
       
