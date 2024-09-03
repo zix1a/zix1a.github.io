@@ -6,7 +6,7 @@
   <link href="https://zix1a.github.io/atom.xml" rel="self"/>
   
   <link href="https://zix1a.github.io/"/>
-  <updated>2024-09-02T14:09:40.535Z</updated>
+  <updated>2024-09-03T08:54:11.950Z</updated>
   <id>https://zix1a.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>热学</title>
+    <link href="https://zix1a.github.io/posts/78f15731.html"/>
+    <id>https://zix1a.github.io/posts/78f15731.html</id>
+    <published>2024-09-03T07:58:06.000Z</published>
+    <updated>2024-09-03T08:54:11.950Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="概述">概述</h2><p>热学微观理论是统计物理。</p><h2 id="热平衡态和状态方程">热平衡态和状态方程</h2><p><img src="https://pic.imgdb.cn/item/66d6c3bad9c307b7e953b165.png" alt=""></p><p>以下两种作用的强弱关系决定固、液、气态</p><p>1.描述分子之间相互作用：分子结合能fine b</p><p>2.描述热运动的剧烈程度：分子平均平动动能e k</p><p><img src="https://pic.imgdb.cn/item/66d6c4a2d9c307b7e956c4a8.png" alt=""></p><p>热学系统的分类：</p><p>1.开放系统：物质交换T 能量交换T</p><p>2.封闭系统：物质F 能量T（物理上封闭，过不去，但能量可）</p><p>3.孤立系统：物质F 能量F</p><p>4.绝热系统：只是无热交换，其他都不管</p><p>I.单相系统：只有一种物相，均匀</p><p>II.复相系统：非均匀系统</p><p><img src="https://pic.imgdb.cn/item/66d6c5ddd9c307b7e957b968.png" alt=""></p><p>平衡态：没有外界影响，不变化（不一定是均匀态！例如在重力场里的气体）</p><p>非平衡态：没有外界影响，自发发生变化</p><p>不受外界影响的系统必将达到平衡态</p><p>热力学平衡态（热平衡态）：力学平衡+热平衡+化学平衡</p><p>不受外界影响：没物质交换，不做功，不传热，可处于均匀外力场中</p><p>热力学第0定律（热平衡定律）：</p><p>1.热平衡传递律：AC热平衡，BC热平衡，则AB热平衡</p><p>2.热平衡=同温度</p><p><img src="https://pic.imgdb.cn/item/66d6c89cd9c307b7e959e9c9.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d6c904d9c307b7e95a35ff.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d6cbc3d9c307b7e95c726a.png" alt=""></p><p>以上做题常用</p><p>混合理想气体，克拉伯龙方程依然成立</p><p><img src="https://pic.imgdb.cn/item/66d6ca12d9c307b7e95af848.png" alt=""></p><p>理想气体微观模型：</p><p>1.分子是质点</p><p>2.分子只有瞬间的碰撞，没有其他相互作用</p><p>3.弹性碰撞</p><p>4.分子运动遵循牛顿力学</p><p>平衡态时分子的速度按方向的分布是各向均匀的</p><p><img src="https://pic.imgdb.cn/item/66d6cd2cd9c307b7e95d7c3c.png" alt=""></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
+&lt;p&gt;热学微观理论是统计物理。&lt;/p&gt;
+&lt;h2 id=&quot;热平衡态和状态方程&quot;&gt;热平衡态和状态方程&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.imgdb.cn/item/66d6c3bad9c307b7e953b165.pn</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>电路分析</title>
@@ -104,9 +127,9 @@
     <link href="https://zix1a.github.io/posts/ab651916.html"/>
     <id>https://zix1a.github.io/posts/ab651916.html</id>
     <published>2024-08-28T11:11:54.000Z</published>
-    <updated>2024-09-02T14:08:02.803Z</updated>
+    <updated>2024-09-03T15:13:04.028Z</updated>
     
-    <content type="html"><![CDATA[<p>2024.8.28</p><p>1.Java学习推进了很多</p><p>各种父类子类的访问权限真的好难啊！！脑子是糊糊的，像itzy一样。</p><p>面向对象的逻辑还没有get到，从面向过程到面向对象，可能注定是个艰难的过程…..</p><p>2.计算机网络看了书的第一章概述，一天一章没什么问题。</p><p>3.leetcode上刷了2道题</p><p>边刷题边复习数据结构与算法吧~编程之路任重道远^_^</p><p>巨大的优化工程之————用时间复杂度更小的方法做简单题</p><p>尽量快一点从C转型到C++吧，这样题解看起来也会方便得多</p><p>2024.8.29</p><p>1.做了迎新志愿者2.5h，热亖了需要降温-_-</p><p>2.leetcode每日两题，今日超额完成，写了4道</p><p>4.Java学习 </p><p>遗留问题：构造器继承？类的public，private是什么意思？等学了更多java以后再来把完整的文档看一遍</p><p>5.没有看计网</p><p>2024.8.30</p><p>1.没有刷leetcode，但由于昨天超额完成了，所以进度没有落下</p><p>2.过了一遍菜鸟教程，写了一篇C++总结博客（STL部分再熟悉一下！）</p><p>2024.8.31</p><p>1.成功安装了操作系统linux！</p><p>2.tmd我的网站崩了，传不上去今天的打卡…..<br>TAT</p><p>解决方案：在没乱删东西的情况下，大概率是网络问题，打开加速器，打开github仓库的action，点进详细界面，就瞪着它deploy，它就好了</p><p>2024.9.1</p><p>1.开学典礼！</p><p>2024.9.2</p><p>1.开学第一天，无趣且忙。以下是干完的一堆杂事：写完了班委竞选表格、看+批注毛选，明天小组讨论、配置了一部分linux服务器+python环境、做了班委竞选ppt</p><p>2.这学期务必要好好学习了，下学期重修物理和离散数学TAT，这次要把分刷高！北航计算机夏令营康康我（T—T）</p><p>3.新东方六级推进30个</p>]]></content>
+    <content type="html"><![CDATA[<p>2024.8.28</p><p>1.Java学习推进了很多</p><p>各种父类子类的访问权限真的好难啊！！脑子是糊糊的，像itzy一样。</p><p>面向对象的逻辑还没有get到，从面向过程到面向对象，可能注定是个艰难的过程…</p><p>2.计算机网络看了书的第一章概述，一天一章没什么问题。</p><p>3.leetcode上刷了2道题</p><p>边刷题边复习数据结构与算法吧~编程之路任重道远^_^</p><p>巨大的优化工程之————用时间复杂度更小的方法做简单题</p><p>尽量快一点从C转型到C++吧，这样题解看起来也会方便得多</p><p>2024.8.29</p><p>1.做了迎新志愿者2.5h，热亖了需要降温-_-</p><p>2.leetcode每日两题，今日超额完成，写了4道</p><p>4.Java学习</p><p>遗留问题：构造器继承？类的public，private是什么意思？等学了更多java以后再来把完整的文档看一遍</p><p>5.没有看计网</p><p>2024.8.30</p><p>1.没有刷leetcode，但由于昨天超额完成了，所以进度没有落下</p><p>2.过了一遍菜鸟教程，写了一篇C++总结博客（STL部分再熟悉一下！）</p><p>2024.8.31</p><p>1.成功安装了操作系统linux！</p><p>2.tmd我的网站崩了，传不上去今天的打卡…<br>TAT</p><p>解决方案：在没乱删东西的情况下，大概率是网络问题，打开加速器，打开github仓库的action，点进详细界面，就瞪着它deploy，它就好了</p><p>2024.9.1</p><p>1.开学典礼！</p><p>2024.9.2</p><p>1.开学第一天，无趣且忙。以下是干完的一堆杂事：写完了班委竞选表格、看+批注毛选，明天小组讨论、配置了一部分linux服务器+python环境、做了班委竞选ppt</p><p>2.这学期务必要好好学习了，下学期重修物理和离散数学TAT，这次要把分刷高！北航计算机夏令营康康我（T—T）</p><p>北航计软我深深的执念，当初得不到的，将来要亲手拿回来…</p><p>2024.9.3</p><p>1.白天课比较多，晚上开了2h的毛概小组讨论会，真的很开心，全员无划水，思路清晰，这辈子最好的组员了属于是</p><p>2.物理笔记整理+写了这节课的作业</p><p>3.新东方六级复习前1天的，没有推进，太忙了</p><p>4.睡前看操作系统书（正在ing…）</p><p>5.进球了！！！</p><p>明天预计：弄完所有毛概资料、leetcode刷题继续</p><p>后天物理课上整理完笔记+解决本周作业</p>]]></content>
     
     
       
@@ -114,8 +137,8 @@
     <summary type="html">&lt;p&gt;2024.8.28&lt;/p&gt;
 &lt;p&gt;1.Java学习推进了很多&lt;/p&gt;
 &lt;p&gt;各种父类子类的访问权限真的好难啊！！脑子是糊糊的，像itzy一样。&lt;/p&gt;
-&lt;p&gt;面向对象的逻辑还没有get到，从面向过程到面向对象，可能注定是个艰难的过程…..&lt;/p&gt;
-&lt;p&gt;2.计算机网络看了书</summary>
+&lt;p&gt;面向对象的逻辑还没有get到，从面向过程到面向对象，可能注定是个艰难的过程…&lt;/p&gt;
+&lt;p&gt;2.计算机网络看了书的第</summary>
       
     
     
