@@ -6,7 +6,7 @@
   <link href="https://zix1a.github.io/atom.xml" rel="self"/>
   
   <link href="https://zix1a.github.io/"/>
-  <updated>2024-09-04T05:31:59.533Z</updated>
+  <updated>2024-09-04T08:44:48.361Z</updated>
   <id>https://zix1a.github.io/</id>
   
   <author>
@@ -21,20 +21,19 @@
     <link href="https://zix1a.github.io/posts/e2e22344.html"/>
     <id>https://zix1a.github.io/posts/e2e22344.html</id>
     <published>2024-09-04T02:16:37.000Z</published>
-    <updated>2024-09-04T05:31:59.533Z</updated>
+    <updated>2024-09-04T08:44:48.361Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="力矩">力矩</h2><p>等效力系：对同一刚体产生相同作用效力的力系</p><p>汇交力系：</p><p>M=r×F</p><p>对点的合力矩定理：服从矢量和法则</p><p>对轴的合力矩定理：服从代数和法则</p><h2 id="力偶">力偶</h2><p>力偶：2个力等值、反向、不共线，只有转动效应</p><p>力偶矩矢：M=F·d</p><p>力偶只能跟力偶等效，不能跟一个力等效</p><p>两个力偶等效的条件：力偶矩矢相等</p><p>在作用平面内，力偶可以：旋转、移动，都是等效的</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="力矩">力矩</h2><p>等效力系：对同一刚体产生相同作用效力的力系</p><p>平衡力系：对刚体不产生任何作用效应的力系</p><p>汇交力系：力作用线汇交于一点的力系</p><p>平行力系：力作用线彼此平行的力系</p><p>对点的力矩：矢量，Mo(F),M=r×F，服从矢量和法则（合力对任一点的矩矢等于各分力对同一点矩矢的矢量和）</p><p>对轴的力矩：代数量，Mz(F),服从代数和法则</p><p>对点的力矩的矢量解析：</p><p><img src="https://pic.imgdb.cn/item/66d80f13d9c307b7e9cd281f.png" alt=""></p><p>对轴的力矩的两种计算方法：</p><p><img src="https://pic.imgdb.cn/item/66d81000d9c307b7e9ce19ec.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d81127d9c307b7e9cf57c8.png" alt=""></p><p>二者联系：</p><p>对点的力矩是个合矢量，对轴的力矩是这个矢量的分量，即在该轴的投影</p><h2 id="力偶">力偶</h2><p>力偶：2个力等值、反向、不共线，只有转动效应</p><p>力偶既无合力，也不能和一个力等效或平衡，力偶只能与力偶等效或平衡（条件：力偶矩矢相等）</p><p>在作用平面内，力偶可以：旋转、平移，或者移到另一个平行平面，都是等效的</p><p><img src="https://pic.imgdb.cn/item/66d8138dd9c307b7e9d22173.png" alt=""></p><p>不可以，轴上还有一个向上的力，和F构成一个力偶</p><p>力偶臂：二力作用线之间的垂直距离</p><p>力偶矩矢：力偶对刚体转动效应的度量M=F·d，力偶矩矢垂直于力偶所在的平面</p><p><img src="https://pic.imgdb.cn/item/66d81470d9c307b7e9d418a2.png" alt=""></p><p>力对点之矩与力偶矩都是转动效应的度量，<br>力对点之矩与矩心有关，力偶矩与矩心无关。</p><h2 id="约束">约束</h2><p>约束力的方向与限制物体运动的方向相反</p><p>1.柔索</p><p>绳索、 链条、皮带</p><p>沿着柔索,背向被约束物体</p><p>2.光滑接触面</p><p>法向约束力，支持力N</p><p>3.光滑圆柱状铰链</p><p>固定铰链：</p><p><img src="https://pic.imgdb.cn/item/66d815b8d9c307b7e9d60894.png" alt=""></p><p>方向径向，从接触点指向轴心，随载荷改变</p><p>活动铰链：</p><p>固定的下面装个轮子</p><p>连接铰链：</p><p>剪刀</p><p>4.光滑球铰链</p><p>方向径向，从接触点指向球心，随载荷改变</p><p>5.轴承</p><p>6.链杆</p><p>两端用光滑销钉连接且不考虑自身重量的构件称为链杆</p><p>平衡状态下+只有两端受力就成了二力杆：二力等值、反向、都沿杆方向</p><p><img src="https://pic.imgdb.cn/item/66d81912d9c307b7e9de667f.png" alt=""></p><p>不是随便一个杆子都是二力杆！前提：要先是链杆</p><p><img src="https://pic.imgdb.cn/item/66d8194fd9c307b7e9dea5b6.png" alt=""></p><p>7.固定端</p><h2 id="交汇力系">交汇力系</h2><p>力的可传性原理：作用于刚体上的力,可以沿其作用线滑移, 而不改变对刚体的作用效应。</p><p>平衡：</p><p>几何法：</p><p>汇交力系的几何平衡条件是力多边形自行封闭。</p><p>解析法：</p><p>力的方向怎么画不要紧，根据算出来的正负判断</p><p>注意x，y，z轴是正方向，力是有正负的，符号一个也不能错</p><p><img src="https://pic.imgdb.cn/item/66d81d4dd9c307b7e9e308b9.png" alt=""></p><p>先向平面投影，再向轴投影</p><p><img src="https://pic.imgdb.cn/item/66d81de2d9c307b7e9e3a6d4.png" alt=""></p>]]></content>
     
     
       
       
     <summary type="html">&lt;h2 id=&quot;力矩&quot;&gt;力矩&lt;/h2&gt;
 &lt;p&gt;等效力系：对同一刚体产生相同作用效力的力系&lt;/p&gt;
-&lt;p&gt;汇交力系：&lt;/p&gt;
-&lt;p&gt;M=r×F&lt;/p&gt;
-&lt;p&gt;对点的合力矩定理：服从矢量和法则&lt;/p&gt;
-&lt;p&gt;对轴的合力矩定理：服从代数和法则&lt;/p&gt;
-&lt;h2 id=&quot;力偶&quot;&gt;力偶&lt;/h</summary>
+&lt;p&gt;平衡力系：对刚体不产生任何作用效应的力系&lt;/p&gt;
+&lt;p&gt;汇交力系：力作用线汇交于一点的力系&lt;/p&gt;
+&lt;p&gt;平行力系：力作用线彼此平行的力系&lt;/p&gt;
+&lt;p&gt;对点的力矩：矢量，Mo</summary>
       
     
     
