@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zix1a.github.io/posts/78f15731.html</loc>
+    
+    <lastmod>2024-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/1778b12e.html</loc>
+    
+    <lastmod>2024-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/33115a55.html</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/8f9509b1.html</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/1f4e8350.html</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/e2e22344.html</loc>
+    
+    <lastmod>2024-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zix1a.github.io/posts/c794e9da.html</loc>
+    
+    <lastmod>2024-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zix1a.github.io/posts/df2849ec.html</loc>
     
     <lastmod>2024-09-20</lastmod>
@@ -29,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://zix1a.github.io/posts/c794e9da.html</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zix1a.github.io/posts/dfb97799.html</loc>
     
     <lastmod>2024-09-20</lastmod>
@@ -48,15 +102,6 @@
   
   <url>
     <loc>https://zix1a.github.io/posts/5751eea2.html</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zix1a.github.io/posts/1f4e8350.html</loc>
     
     <lastmod>2024-09-20</lastmod>
     
@@ -77,33 +122,6 @@
     <loc>https://zix1a.github.io/posts/6da4d456.html</loc>
     
     <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zix1a.github.io/posts/78f15731.html</loc>
-    
-    <lastmod>2024-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zix1a.github.io/posts/1778b12e.html</loc>
-    
-    <lastmod>2024-09-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zix1a.github.io/posts/e2e22344.html</loc>
-    
-    <lastmod>2024-09-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -265,7 +283,7 @@
 
   <url>
     <loc>https://zix1a.github.io/</loc>
-    <lastmod>2024-09-20</lastmod>
+    <lastmod>2024-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

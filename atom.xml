@@ -6,7 +6,7 @@
   <link href="https://zix1a.github.io/atom.xml" rel="self"/>
   
   <link href="https://zix1a.github.io/"/>
-  <updated>2024-09-20T07:55:00.930Z</updated>
+  <updated>2024-09-23T07:10:41.148Z</updated>
   <id>https://zix1a.github.io/</id>
   
   <author>
@@ -17,12 +17,68 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>深度学习</title>
+    <link href="https://zix1a.github.io/posts/33115a55.html"/>
+    <id>https://zix1a.github.io/posts/33115a55.html</id>
+    <published>2024-09-22T06:41:57.000Z</published>
+    <updated>2024-09-23T07:10:41.148Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="多层感知机-MLP">多层感知机(MLP)</h2><p><a href="https://blog.csdn.net/fg13821267836/article/details/93405572">本文</a>写的特别好，去看！</p><p>除了输入输出层，它中间可以有多个隐层。</p><p>MLP的双要素：仿射变换+激活函数</p><p>对于一个隐藏层：</p><p>进入：向量X</p><p>输出：f (W1X+b1)，W1是权重，b1是偏置，f是激活函数等。</p><p>为嘛使用激活函数？</p><p>a. 不使用激活函数，每一层输出都是上层输入的线性函数，无论神经网络有多少层，输出都是输入的线性组合。</p><p>b. 使用激活函数，能够给神经元引入非线性因素，使得神经网络可以任意逼近任何非线性函数，这样神经网络就可以利用到更多的非线性模型中。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">%matplotlib inline</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="ReLU函数">ReLU函数</h2><p>激活函数之一</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><h2 id="sigmoid函数">sigmoid函数</h2><h2 id="tanh函数">tanh函数</h2><h2 id="softmax回归">softmax回归</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;多层感知机-MLP&quot;&gt;多层感知机(MLP)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/fg13821267836/article/details/93405572&quot;&gt;本文&lt;/a&gt;写的特别好，去看！&lt;/p&gt;
+&lt;p&gt;除了输入输出层，</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>南烟斋笔录</title>
+    <link href="https://zix1a.github.io/posts/8f9509b1.html"/>
+    <id>https://zix1a.github.io/posts/8f9509b1.html</id>
+    <published>2024-09-22T05:44:24.000Z</published>
+    <updated>2024-09-23T06:55:22.807Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2024-9-22">2024.9.22</h3><p>写完了英语作业、基物实验预习报告、工图作业</p><h3 id="2024-9-23">2024.9.23</h3><p>写完了复变函数作业、物理作业、</p><p>未完待续：<br>基物实验报告、科研课堂报告、工程力学作业</p><p>信息论<br>softmax<br>交叉熵损失函数https://blog.csdn.net/chao_shine/article/details/89925762</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;2024-9-22&quot;&gt;2024.9.22&lt;/h3&gt;
+&lt;p&gt;写完了英语作业、基物实验预习报告、工图作业&lt;/p&gt;
+&lt;h3 id=&quot;2024-9-23&quot;&gt;2024.9.23&lt;/h3&gt;
+&lt;p&gt;写完了复变函数作业、物理作业、&lt;/p&gt;
+&lt;p&gt;未完待续：&lt;br&gt;
+基物实验报告、</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>网站的Build &amp; Debug</title>
     <link href="https://zix1a.github.io/posts/c794e9da.html"/>
     <id>https://zix1a.github.io/posts/c794e9da.html</id>
     <published>2024-09-20T07:40:22.000Z</published>
-    <updated>2024-09-20T07:55:00.930Z</updated>
+    <updated>2024-09-22T05:42:56.893Z</updated>
     
+    <content type="html"><![CDATA[<p>用于记录建站以来遇到的bug和完善建造方法。</p><h2 id="Spawn-failed">Spawn failed</h2><p>出现在deploy这一步，99%是网络问题，这时可以重启电脑，打开github仓库里的action，就看着它deploy（这样做可能会使网络通畅一点）</p><p><img src="https://pic.imgdb.cn/item/66efad31f21886ccc03f39f7.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66efad85f21886ccc03f847d.jpg" alt=""></p><h2 id="hexo常用命令">hexo常用命令</h2><p>hexo c清空仓库</p><p>hexo g更新相关文件</p><p>hexo d打包上传仓库</p><p>hexo s本地运行网站</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;用于记录建站以来遇到的bug和完善建造方法。&lt;/p&gt;
+&lt;h2 id=&quot;Spawn-failed&quot;&gt;Spawn failed&lt;/h2&gt;
+&lt;p&gt;出现在deploy这一步，99%是网络问题，这时可以重启电脑，打开github仓库里的action，就看着它deploy（这样做可能会</summary>
+      
     
     
     
@@ -34,8 +90,19 @@
     <link href="https://zix1a.github.io/posts/1f4e8350.html"/>
     <id>https://zix1a.github.io/posts/1f4e8350.html</id>
     <published>2024-09-07T08:22:31.000Z</published>
-    <updated>2024-09-20T05:50:57.030Z</updated>
+    <updated>2024-09-23T06:44:01.745Z</updated>
     
+    <content type="html"><![CDATA[<p>复球面：</p><p><img src="https://pic.imgdb.cn/item/66f100a4f21886ccc074bda5.png" alt=""></p><h2 id="解析与可导">解析与可导</h2><p>可导的充要条件：</p><p><img src="https://pic.imgdb.cn/item/66f0e5ddf21886ccc059359f.jpg" alt=""></p><p>解析的充要条件：</p><p><img src="https://pic.imgdb.cn/item/66f0e850f21886ccc05b96c0.jpg" alt=""></p><p>复变函数求导公式：</p><p><img src="https://pic.imgdb.cn/item/66f0e865f21886ccc05baa54.jpg" alt=""></p><p>可导与解析的联系：</p><p><img src="https://pic.imgdb.cn/item/66f0e478f21886ccc057b701.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f0e285f21886ccc0558a4d.png" alt=""></p><p>为常数函数的条件：</p><p><img src="https://pic.imgdb.cn/item/66f0e7b1f21886ccc05afe43.png" alt=""></p><h2 id="初等函数">初等函数</h2><h4 id="指数函数">指数函数</h4><p><img src="https://pic.imgdb.cn/item/66f0d067f21886ccc04046f8.jpg" alt=""></p><p>注意点：</p><p>(1)取模运算：|z|，要写成z=x+iy的形态，|z|=根号x^2+y^2=根号z*z的共轭，不是z平方了再开根号！和实数不同</p><p><img src="https://pic.imgdb.cn/item/66f0d056f21886ccc0403778.jpg" alt=""></p><p>(2)Arg(z)辐角是有2kπ的，辐角主值是没2kπ的</p><p>(3)复数在分母上的化简：有理化</p><p>(4)归一化成函数原来的形式</p><p><img src="https://pic.imgdb.cn/item/66f0ce2df21886ccc03e405d.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f0cfecf21886ccc03fe045.png" alt=""></p><h4 id="对数函数">对数函数</h4><p><img src="https://pic.imgdb.cn/item/66f0d383f21886ccc0434f4f.jpg" alt=""></p><p>注意一下细心就好</p><p><img src="https://pic.imgdb.cn/item/66f0d18bf21886ccc041520c.png" alt=""></p><h4 id="幂函数">幂函数</h4><p><img src="https://pic.imgdb.cn/item/66f0d52ef21886ccc04528c6.jpg" alt=""></p><h4 id="三角函数">三角函数</h4><p><img src="https://pic.imgdb.cn/item/66f0d793f21886ccc0480b19.jpg" alt=""></p><p>二元函数u(x,y)的可微和可导？<br>复数求导法则和实数一样？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;复球面：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.imgdb.cn/item/66f100a4f21886ccc074bda5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;解析与可导&quot;&gt;解析与可导&lt;/h2&gt;
+&lt;p&gt;可导的充要条件：&lt;/p&gt;
+&lt;p&gt;&lt;i</summary>
+      
     
     
     
@@ -68,16 +135,19 @@
     <link href="https://zix1a.github.io/posts/e2e22344.html"/>
     <id>https://zix1a.github.io/posts/e2e22344.html</id>
     <published>2024-09-04T02:16:37.000Z</published>
-    <updated>2024-09-11T12:07:31.950Z</updated>
+    <updated>2024-09-22T06:20:33.529Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="力矩"><a href="#力矩" class="headerlink" title="力矩"></a>力矩</h2><p>等效力系：对同一刚体产生相同作用效力的力系</p><p>平衡力系：对刚体不产生任何作用效应的力系</p><p>汇交力系：力作用线汇交于一点的力系</p><p>平行力系：力作用线彼此平行的力系</p><p>对点的力矩：矢量，Mo(F),M=r×F，服从矢量和法则（合力对任一点的矩矢等于各分力对同一点矩矢的矢量和）</p><p>对轴的力矩：代数量，Mz(F),服从代数和法则</p><p>对点的力矩的矢量解析：</p><p><img src="https://pic.imgdb.cn/item/66d80f13d9c307b7e9cd281f.png" alt=""></p><p>对轴的力矩的两种计算方法：</p><p><img src="https://pic.imgdb.cn/item/66d81000d9c307b7e9ce19ec.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d81127d9c307b7e9cf57c8.png" alt=""></p><p>二者联系：</p><p>对点的力矩是个合矢量，对轴的力矩是这个矢量的分量，即在该轴的投影</p><h2 id="力偶"><a href="#力偶" class="headerlink" title="力偶"></a>力偶</h2><p>力偶：2个力等值、反向、不共线，只有转动效应</p><p>力偶既无合力，也不能和一个力等效或平衡，力偶只能与力偶等效或平衡（条件：力偶矩矢相等）</p><p>在作用平面内，力偶可以：旋转、平移，或者移到另一个平行平面，都是等效的</p><p><img src="https://pic.imgdb.cn/item/66d8138dd9c307b7e9d22173.png" alt=""></p><p>不可以，轴上还有一个向上的力，和F构成一个力偶</p><p>力偶臂：二力作用线之间的垂直距离</p><p>力偶矩矢：力偶对刚体转动效应的度量M=F·d，力偶矩矢垂直于力偶所在的平面</p><p><img src="https://pic.imgdb.cn/item/66d81470d9c307b7e9d418a2.png" alt=""></p><p>力对点之矩与力偶矩都是转动效应的度量，<br>力对点之矩与矩心有关，力偶矩与矩心无关。</p><h2 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h2><p>约束力的方向与限制物体运动的方向相反</p><p>1.柔索</p><p>绳索、 链条、皮带</p><p>沿着柔索,背向被约束物体</p><p>2.光滑接触面</p><p>法向约束力，支持力N</p><p>3.光滑圆柱状铰链</p><p>固定铰链：</p><p><img src="https://pic.imgdb.cn/item/66d815b8d9c307b7e9d60894.png" alt=""></p><p>方向径向，从接触点指向轴心，随载荷改变</p><p>活动铰链：</p><p>固定的下面装个轮子</p><p>连接铰链：</p><p>剪刀</p><p>4.光滑球铰链</p><p>方向径向，从接触点指向球心，随载荷改变</p><p>5.轴承</p><p>6.链杆</p><p>两端用光滑销钉连接且不考虑自身重量的构件称为链杆</p><p>平衡状态下+只有两端受力就成了二力杆：二力等值、反向、都沿杆方向</p><p><img src="https://pic.imgdb.cn/item/66d81912d9c307b7e9de667f.png" alt=""></p><p>不是随便一个杆子都是二力杆！前提：要先是链杆</p><p><img src="https://pic.imgdb.cn/item/66d8194fd9c307b7e9dea5b6.png" alt=""></p><p>7.固定端</p><h2 id="交汇力系"><a href="#交汇力系" class="headerlink" title="交汇力系"></a>交汇力系</h2><p>力的可传性原理：作用于刚体上的力,可以沿其作用线滑移, 而不改变对刚体的作用效应。</p><p>平衡：</p><p>几何法：</p><p>汇交力系的几何平衡条件是力多边形自行封闭。</p><p>解析法：</p><p>力的方向怎么画不要紧，根据算出来的正负判断</p><p>注意x，y，z轴是正方向，力是有正负的，符号一个也不能错</p><p><img src="https://pic.imgdb.cn/item/66d81d4dd9c307b7e9e308b9.png" alt=""></p><p>先向平面投影，再向轴投影</p><p><img src="https://pic.imgdb.cn/item/66d81de2d9c307b7e9e3a6d4.png" alt=""></p><h2 id="任意力系"><a href="#任意力系" class="headerlink" title="任意力系"></a>任意力系</h2><p>力的平移定理：平移后=F’+F的力矩</p><p>M(F)=r×F</p><p><img src="https://pic.imgdb.cn/item/66e0fed7d9c307b7e94c0dcb.png" alt=""></p><p>（力矩是转动轴！）</p><p><img src="https://pic.imgdb.cn/item/66e10054d9c307b7e94d6fae.png" alt=""></p><p>1.合成出来就是一个合力</p><p>2.合成出来是一个力偶</p><p>与化简中心位置无关原因：力偶矩矢（力偶）就是一个可以随便平移的量，当然和矩心无关</p><p><img src="https://pic.imgdb.cn/item/66e1020ad9c307b7e94f28a3.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e1028dd9c307b7e94faac6.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e10342d9c307b7e9505c1e.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e10356d9c307b7e9506c45.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="力矩">力矩</h2><p>等效力系：对同一刚体产生相同作用效力的力系</p><p>平衡力系：对刚体不产生任何作用效应的力系</p><p>汇交力系：力作用线汇交于一点的力系</p><p>平行力系：力作用线彼此平行的力系</p><p>对点的力矩：矢量，Mo(F),M=r×F，服从矢量和法则（合力对任一点的矩矢等于各分力对同一点矩矢的矢量和）</p><p>对轴的力矩：代数量，Mz(F),服从代数和法则</p><p>对点的力矩的矢量解析：</p><p><img src="https://pic.imgdb.cn/item/66d80f13d9c307b7e9cd281f.png" alt=""></p><p>对轴的力矩的两种计算方法：</p><p><img src="https://pic.imgdb.cn/item/66d81000d9c307b7e9ce19ec.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d81127d9c307b7e9cf57c8.png" alt=""></p><p>二者联系：</p><p>对点的力矩是个合矢量，对轴的力矩是这个矢量的分量，即在该轴的投影</p><h2 id="力偶">力偶</h2><p>力偶：2个力等值、反向、不共线，只有转动效应</p><p>力偶既无合力，也不能和一个力等效或平衡，力偶只能与力偶等效或平衡（条件：力偶矩矢相等）</p><p>在作用平面内，力偶可以：旋转、平移，或者移到另一个平行平面，都是等效的</p><p><img src="https://pic.imgdb.cn/item/66d8138dd9c307b7e9d22173.png" alt=""></p><p>不可以，轴上还有一个向上的力，和F构成一个力偶</p><p>力偶臂：二力作用线之间的垂直距离</p><p>力偶矩矢：力偶对刚体转动效应的度量M=F·d，力偶矩矢垂直于力偶所在的平面</p><p><img src="https://pic.imgdb.cn/item/66d81470d9c307b7e9d418a2.png" alt=""></p><p>力对点之矩与力偶矩都是转动效应的度量，<br>力对点之矩与矩心有关，力偶矩与矩心无关。</p><h2 id="约束">约束</h2><p>约束力的方向与限制物体运动的方向相反</p><p>1.柔索</p><p>绳索、 链条、皮带</p><p>沿着柔索,背向被约束物体</p><p>2.光滑接触面</p><p>法向约束力，支持力N</p><p>3.光滑圆柱状铰链</p><p>固定铰链：</p><p><img src="https://pic.imgdb.cn/item/66d815b8d9c307b7e9d60894.png" alt=""></p><p>方向径向，从接触点指向轴心，随载荷改变</p><p>活动铰链：</p><p>固定的下面装个轮子</p><p>连接铰链：</p><p>剪刀</p><p>4.光滑球铰链</p><p>方向径向，从接触点指向球心，随载荷改变</p><p>5.轴承</p><p>6.链杆</p><p>两端用光滑销钉连接且不考虑自身重量的构件称为链杆</p><p>平衡状态下+只有两端受力就成了二力杆：二力等值、反向、都沿杆方向</p><p><img src="https://pic.imgdb.cn/item/66d81912d9c307b7e9de667f.png" alt=""></p><p>不是随便一个杆子都是二力杆！前提：要先是链杆</p><p><img src="https://pic.imgdb.cn/item/66d8194fd9c307b7e9dea5b6.png" alt=""></p><p>7.固定端</p><h2 id="交汇力系">交汇力系</h2><p>力的可传性原理：作用于刚体上的力,可以沿其作用线滑移, 而不改变对刚体的作用效应。</p><p>平衡：</p><p>几何法：</p><p>汇交力系的几何平衡条件是力多边形自行封闭。</p><p>解析法：</p><p>力的方向怎么画不要紧，根据算出来的正负判断</p><p>注意x，y，z轴是正方向，力是有正负的，符号一个也不能错</p><p><img src="https://pic.imgdb.cn/item/66d81d4dd9c307b7e9e308b9.png" alt=""></p><p>先向平面投影，再向轴投影</p><p><img src="https://pic.imgdb.cn/item/66d81de2d9c307b7e9e3a6d4.png" alt=""></p><h2 id="任意力系">任意力系</h2><p>力的平移定理：平移后=F’+F的力矩</p><p>M(F)=r×F</p><p><img src="https://pic.imgdb.cn/item/66e0fed7d9c307b7e94c0dcb.png" alt=""></p><p>（力矩是转动轴！）</p><p><img src="https://pic.imgdb.cn/item/66e10054d9c307b7e94d6fae.png" alt=""></p><p>1.合成出来就是一个合力</p><p>2.合成出来是一个力偶</p><p>与化简中心位置无关原因：力偶矩矢（力偶）就是一个可以随便平移的量，当然和矩心无关</p><p><img src="https://pic.imgdb.cn/item/66e1020ad9c307b7e94f28a3.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e1028dd9c307b7e94faac6.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e10342d9c307b7e9505c1e.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e10356d9c307b7e9506c45.png" alt=""></p><h2 id="平面任意力系">平面任意力系</h2><p>向一点化简：化简成主矢和主矩</p><p><img src="https://pic.imgdb.cn/item/66efafd9f21886ccc041d1f3.png" alt=""></p><p>合力和主矢的关系：</p><p>合力和原力系等效，主矢和原力系里的力矢和等效</p><p>平衡的充要条件：</p><p>主矢=0 &amp;&amp; 对任一点的主矩=0</p><p><img src="https://pic.imgdb.cn/item/66efb400f21886ccc0468c6d.png" alt=""></p><h2 id="空间任意力系">空间任意力系</h2><p>向一点化简：化简成主矢和主矩</p><p><img src="https://pic.imgdb.cn/item/66efb090f21886ccc042936b.png" alt=""></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;力矩&quot;&gt;&lt;a href=&quot;#力矩&quot; class=&quot;headerlink&quot; title=&quot;力矩&quot;&gt;&lt;/a&gt;力矩&lt;/h2&gt;&lt;p&gt;等效力系：对同一刚体产生相同作用效力的力系&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;力矩&quot;&gt;力矩&lt;/h2&gt;
+&lt;p&gt;等效力系：对同一刚体产生相同作用效力的力系&lt;/p&gt;
 &lt;p&gt;平衡力系：对刚体不产生任何作用效应的力系&lt;/p&gt;
-&lt;p&gt;汇交力系：力作用线汇交于一</summary>
+&lt;p&gt;汇交力系：力作用线汇交于一点的力系&lt;/p&gt;
+&lt;p&gt;平行力系：力作用线彼此平行的力系&lt;/p&gt;
+&lt;p&gt;对点的力矩：矢量，Mo</summary>
       
     
     
@@ -90,15 +160,18 @@
     <link href="https://zix1a.github.io/posts/78f15731.html"/>
     <id>https://zix1a.github.io/posts/78f15731.html</id>
     <published>2024-09-03T07:58:06.000Z</published>
-    <updated>2024-09-19T09:20:41.759Z</updated>
+    <updated>2024-09-24T07:35:03.183Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>热学微观理论是统计物理。</p><h2 id="热平衡态和状态方程"><a href="#热平衡态和状态方程" class="headerlink" title="热平衡态和状态方程"></a>热平衡态和状态方程</h2><h4 id="公式和常量"><a href="#公式和常量" class="headerlink" title="公式和常量"></a>公式和常量</h4><p>第一个公式含有方向，第二个公式不含方向，表示的是模（注意先取平均再^2和先^2再取平均的区别！）</p><p><img src="https://pic.imgdb.cn/item/66d96618d9c307b7e986c044.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d969fed9c307b7e98e6618.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d6c5ddd9c307b7e957b968.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d96b0ad9c307b7e98f53a4.png" alt=""></p><p>混合理想气体，克拉伯龙方程依然成立</p><p><img src="https://pic.imgdb.cn/item/66d6ca12d9c307b7e95af848.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d7c2cdd9c307b7e970b439.png" alt=""></p><h4 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h4><p><img src="https://pic.imgdb.cn/item/66d6c3bad9c307b7e953b165.png" alt=""></p><p>以下两种作用的强弱关系决定固、液、气态</p><p>1.描述分子之间相互作用：分子结合能fine b</p><p>2.描述热运动的剧烈程度：分子平均平动动能ek</p><p><img src="https://pic.imgdb.cn/item/66d6c4a2d9c307b7e956c4a8.png" alt=""></p><p>热学系统的分类：</p><p>1.开放系统：物质交换T 能量交换T</p><p>2.封闭系统：物质F 能量T（物理上封闭，过不去，但能量可）</p><p>3.孤立系统：物质F 能量F</p><p>4.绝热系统：只是无热交换，其他都不管</p><p>I.单相系统：只有一种物相，均匀</p><p>II.复相系统：非均匀系统</p><p>平衡态：没有外界影响，不变化（不一定是均匀态！例如在重力场里的气体）</p><p>非平衡态：没有外界影响，自发发生变化</p><p>不受外界影响的系统必将达到平衡态</p><p>热力学平衡态（热平衡态）：力学平衡+热平衡+化学平衡</p><p>不受外界影响：没物质交换，不做功，不传热，可处于均匀外力场中</p><p>热力学第0定律（热平衡定律）：</p><p>1.热平衡传递律：AC热平衡，BC热平衡，则AB热平衡</p><p>2.热平衡=同温度</p><p>理想气体微观模型：</p><p>1.分子是质点</p><p>2.分子只有瞬间的碰撞，没有其他相互作用</p><p>3.弹性碰撞</p><p>4.分子运动遵循牛顿力学</p><p>任何种类的理想气体，只要温度相同，分子的平均平动动能就相等.</p><p>拓展时看看：理想气体压强公式的推导过程，见ppt</p><h2 id="Maxwell-Boltzmann"><a href="#Maxwell-Boltzmann" class="headerlink" title="Maxwell-Boltzmann"></a>Maxwell-Boltzmann</h2><h4 id="公式和常量-1"><a href="#公式和常量-1" class="headerlink" title="公式和常量"></a>公式和常量</h4><p>核心公式：</p><p>m：每个粒子的质量，kB：Boltzmann常量</p><p><img src="https://pic.imgdb.cn/item/66e2b333d9c307b7e9ca7197.jpg" alt=""></p><p>Maxwell的铺垫————速率分布函数：</p><p><img src="https://pic.imgdb.cn/item/66e2b309d9c307b7e9ca4727.jpg" alt=""></p><p>Maxwell速度分布函数：</p><p><img src="https://pic.imgdb.cn/item/66ea8950f21886ccc084d1c0.jpg" alt=""></p><p>Boltzmann位置分布函数：</p><p><img src="https://pic.imgdb.cn/item/66ea89d8f21886ccc0867176.jpg" alt=""></p><p>能量均分定理：</p><p><img src="https://pic.imgdb.cn/item/66e2b322d9c307b7e9ca60f2.jpg" alt=""></p><h4 id="知识-1"><a href="#知识-1" class="headerlink" title="知识"></a>知识</h4><p>Maxwell速率分布函数图像：</p><p><img src="https://pic.imgdb.cn/item/66ea8b8bf21886ccc08c00f9.png" alt=""></p><p>气体种类、温度(只有这两个影响因素！)对Maxwell速率分布函数图像的影响：</p><p>(1) 同种气体、同温，3种平均速度大小关系</p><p><img src="https://pic.imgdb.cn/item/66e2b0c1d9c307b7e9c7e38d.png" alt=""></p><p>(2) 同气体种类，变温</p><p><img src="https://pic.imgdb.cn/item/66e2b0e8d9c307b7e9c80aca.png" alt=""></p><p>(3) 同温，变气体种类</p><p><img src="https://pic.imgdb.cn/item/66e2b105d9c307b7e9c829a5.png" alt=""></p><p>一些数学知识：</p><p><img src="https://pic.imgdb.cn/item/66e2b2f0d9c307b7e9ca2d97.jpg" alt=""></p><p>最概然速率的计算方法：</p><p>求导=0，算极值</p><p>（不止这一个公式，也可能自己算其他的，题里会有！）</p><p><img src="https://pic.imgdb.cn/item/66e2af8fd9c307b7e9c698a5.png" alt=""></p><p>积分的计算方法：</p><p>用例2来举例，步骤：</p><p>1.化简，把无关的移出积分</p><p>2.d内换元，换成e指数上的东西</p><p>3.换元的东西对v求导，得到一坨东西，除掉这坨东西（通常直接消去v移到积分外面去）</p><p>一些例子：</p><p><img src="https://pic.imgdb.cn/item/66e2afe7d9c307b7e9c6f444.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea90c5f21886ccc091300a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e2b005d9c307b7e9c71d1f.png" alt=""></p><p>常见且会用到的积分公式：</p><h2 id="近平衡态中的运输过程"><a href="#近平衡态中的运输过程" class="headerlink" title="近平衡态中的运输过程"></a>近平衡态中的运输过程</h2><h4 id="公式和常量-2"><a href="#公式和常量-2" class="headerlink" title="公式和常量"></a>公式和常量</h4><p><img src="https://pic.imgdb.cn/item/66ebdfc1f21886ccc0c067eb.png" alt=""></p><p>平均自由程lamda：每个分子连续两次碰撞之间经历的自由路程的平均长度</p><p>平均碰撞频率Z：每个分子单位时间里与其它分子碰撞次数的平均值</p><p>分子的有效直径d：两个分子质心间所能达到的最小距离的平均值</p><p>单位体积中分子数n</p><p>详细推导见ppt</p><h2 id="热力学第一定律"><a href="#热力学第一定律" class="headerlink" title="热力学第一定律"></a>热力学第一定律</h2><h4 id="公式和常量-3"><a href="#公式和常量-3" class="headerlink" title="公式和常量"></a>公式和常量</h4><p>热力学第一定律：</p><p><img src="https://pic.imgdb.cn/item/66ebecc1f21886ccc0cebb98.jpg" alt=""></p><p>摩尔热容、比热容、热容的定义：</p><p><img src="https://pic.imgdb.cn/item/66ebec46f21886ccc0ce529a.jpg" alt=""></p><p>一般公式和特殊（c，Cm为常量）公式：</p><p><img src="https://pic.imgdb.cn/item/66ebec80f21886ccc0ce85f6.jpg" alt=""></p><h4 id="知识-2"><a href="#知识-2" class="headerlink" title="知识"></a>知识</h4><p>准静态过程：无限缓慢，每一个中间状态都无限接近平衡态</p><p>内能是系统的态函数：内能改变只与初、末状态有关，与过程无关</p><p>与之相反的是：</p><p>（1）做功</p><p><img src="https://pic.imgdb.cn/item/66ebdbe2f21886ccc0bbde64.png" alt=""></p><p>（2）热量、传热</p><p><img src="https://pic.imgdb.cn/item/66ebdd28f21886ccc0bd3f30.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ebdd1cf21886ccc0bd32c9.png" alt=""></p><p>（3）物质的比热、热容、摩尔热容都与过程有关！</p><p>改变内能的2种方法：</p><p>（1）做功</p><p>力学作用下转移的能量</p><p>（2）传热</p><p>热学作用下转移的能量</p><p>热力学第一定律的适用条件：</p><p>（1）此定律只要求系统的初、末状态是平衡态</p><p>（2）适用于任何系统（气、液、固）</p><p>汽化热：汽化过程中1mol的吸热量</p><p>水的汽化是等温等压变体积过程</p><p><img src="https://pic.imgdb.cn/item/66ebe20bf21886ccc0c31741.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="概述">概述</h2><p>热学微观理论是统计物理。</p><h2 id="热平衡态和状态方程">热平衡态和状态方程</h2><h4 id="公式和常量">公式和常量</h4><p>第一个公式含有方向，第二个公式不含方向，表示的是模（注意先取平均再^2和先^2再取平均的区别！）</p><p><img src="https://pic.imgdb.cn/item/66d96618d9c307b7e986c044.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d969fed9c307b7e98e6618.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d6c5ddd9c307b7e957b968.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d96b0ad9c307b7e98f53a4.png" alt=""></p><p>混合理想气体，克拉伯龙方程依然成立</p><p><img src="https://pic.imgdb.cn/item/66d6ca12d9c307b7e95af848.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66d7c2cdd9c307b7e970b439.png" alt=""></p><h4 id="知识">知识</h4><p><img src="https://pic.imgdb.cn/item/66d6c3bad9c307b7e953b165.png" alt=""></p><p>以下两种作用的强弱关系决定固、液、气态</p><p>1.描述分子之间相互作用：分子结合能fine b</p><p>2.描述热运动的剧烈程度：分子平均平动动能ek</p><p><img src="https://pic.imgdb.cn/item/66d6c4a2d9c307b7e956c4a8.png" alt=""></p><p>热学系统的分类：</p><p>1.开放系统：物质交换T 能量交换T</p><p>2.封闭系统：物质F 能量T（物理上封闭，过不去，但能量可）</p><p>3.孤立系统：物质F 能量F</p><p>4.绝热系统：只是无热交换，其他都不管</p><p>I.单相系统：只有一种物相，均匀</p><p>II.复相系统：非均匀系统</p><p>平衡态：没有外界影响，不变化（不一定是均匀态！例如在重力场里的气体）</p><p>非平衡态：没有外界影响，自发发生变化</p><p>不受外界影响的系统必将达到平衡态</p><p>热力学平衡态（热平衡态）：力学平衡+热平衡+化学平衡</p><p>不受外界影响：没物质交换，不做功，不传热，可处于均匀外力场中</p><p>热力学第0定律（热平衡定律）：</p><p>1.热平衡传递律：AC热平衡，BC热平衡，则AB热平衡</p><p>2.热平衡=同温度</p><p>理想气体微观模型：</p><p>1.分子是质点</p><p>2.分子只有瞬间的碰撞，没有其他相互作用</p><p>3.弹性碰撞</p><p>4.分子运动遵循牛顿力学</p><p>任何种类的理想气体，只要温度相同，分子的平均平动动能就相等.</p><p>拓展时看看：理想气体压强公式的推导过程，见ppt</p><h2 id="Maxwell-Boltzmann">Maxwell-Boltzmann</h2><h4 id="公式和常量-2">公式和常量</h4><p>核心公式：</p><p>m：每个粒子的质量，kB：Boltzmann常量</p><p><img src="https://pic.imgdb.cn/item/66e2b333d9c307b7e9ca7197.jpg" alt=""></p><p>Maxwell的铺垫————速率分布函数：</p><p><img src="https://pic.imgdb.cn/item/66e2b309d9c307b7e9ca4727.jpg" alt=""></p><p>Maxwell速度分布函数：</p><p><img src="https://pic.imgdb.cn/item/66ea8950f21886ccc084d1c0.jpg" alt=""></p><p>Boltzmann位置分布函数：</p><p><img src="https://pic.imgdb.cn/item/66ea89d8f21886ccc0867176.jpg" alt=""></p><p>能量均分定理：</p><p><img src="https://pic.imgdb.cn/item/66e2b322d9c307b7e9ca60f2.jpg" alt=""></p><h4 id="知识-2">知识</h4><p>Maxwell速率分布函数图像：</p><p><img src="https://pic.imgdb.cn/item/66ea8b8bf21886ccc08c00f9.png" alt=""></p><p>气体种类、温度(只有这两个影响因素！)对Maxwell速率分布函数图像的影响：</p><p>(1) 同种气体、同温，3种平均速度大小关系</p><p><img src="https://pic.imgdb.cn/item/66e2b0c1d9c307b7e9c7e38d.png" alt=""></p><p>(2) 同气体种类，变温</p><p><img src="https://pic.imgdb.cn/item/66e2b0e8d9c307b7e9c80aca.png" alt=""></p><p>(3) 同温，变气体种类</p><p><img src="https://pic.imgdb.cn/item/66e2b105d9c307b7e9c829a5.png" alt=""></p><p>一些数学知识：</p><p><img src="https://pic.imgdb.cn/item/66e2b2f0d9c307b7e9ca2d97.jpg" alt=""></p><p>最概然速率的计算方法：</p><p>求导=0，算极值</p><p>（不止这一个公式，也可能自己算其他的，题里会有！）</p><p><img src="https://pic.imgdb.cn/item/66e2af8fd9c307b7e9c698a5.png" alt=""></p><p>积分的计算方法：</p><p>用例2来举例，步骤：</p><p>1.化简，把无关的移出积分</p><p>2.d内换元，换成e指数上的东西</p><p>3.换元的东西对v求导，得到一坨东西，除掉这坨东西（通常直接消去v移到积分外面去）</p><p>一些例子：</p><p><img src="https://pic.imgdb.cn/item/66e2afe7d9c307b7e9c6f444.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea90c5f21886ccc091300a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66e2b005d9c307b7e9c71d1f.png" alt=""></p><p>常见且会用到的积分公式：</p><h2 id="近平衡态中的输运过程">近平衡态中的输运过程</h2><h4 id="公式和常量-3">公式和常量</h4><p><img src="https://pic.imgdb.cn/item/66ebdfc1f21886ccc0c067eb.png" alt=""></p><p>平均自由程lamda：每个分子连续两次碰撞之间经历的自由路程的平均长度</p><p>平均碰撞频率Z：每个分子单位时间里与其它分子碰撞次数的平均值</p><p>分子的有效直径d：两个分子质心间所能达到的最小距离的平均值</p><p>单位体积中分子数n</p><p>详细推导见ppt</p><h2 id="热力学第一定律">热力学第一定律</h2><h4 id="公式和常量-4">公式和常量</h4><p>热力学第一定律：</p><p><img src="https://pic.imgdb.cn/item/66ebecc1f21886ccc0cebb98.jpg" alt=""></p><p>注意正负判断问题！！！很重要</p><p>摩尔热容、比热容、热容的定义：</p><p><img src="https://pic.imgdb.cn/item/66ebec46f21886ccc0ce529a.jpg" alt=""></p><p>一般公式和特殊（c，Cm为常量）公式：</p><p><img src="https://pic.imgdb.cn/item/66ebec80f21886ccc0ce85f6.jpg" alt=""></p><p>理想气体的定体、定压摩尔热容：</p><p><img src="https://pic.imgdb.cn/item/66f267eef21886ccc0a126f0.jpg" alt=""></p><p>二者联系：</p><p><img src="https://pic.imgdb.cn/item/66f26847f21886ccc0a174f0.jpg" alt=""></p><p>热力学第一定律对理想气体准静态过程的应用：</p><p><img src="https://pic.imgdb.cn/item/66f25d49f21886ccc09657bd.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f26271f21886ccc09bea98.jpg" alt=""></p><p>等温过程：</p><p><img src="https://pic.imgdb.cn/item/66f25f79f21886ccc098ed07.jpg" alt=""></p><p>等压过程：</p><p><img src="https://pic.imgdb.cn/item/66f26288f21886ccc09c01f4.jpg" alt=""></p><p>等体过程：</p><p><img src="https://pic.imgdb.cn/item/66f26484f21886ccc09e13ae.jpg" alt=""></p><p>伽马：比热容比</p><p><img src="https://pic.imgdb.cn/item/66f26620f21886ccc09f901a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f26847f21886ccc0a174f0.jpg" alt=""></p><p>绝热过程：</p><p><img src="https://pic.imgdb.cn/item/66f264eaf21886ccc09e71b7.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f268f2f21886ccc0a2113a.png" alt=""></p><p>关系式：</p><p><img src="https://pic.imgdb.cn/item/66f264f9f21886ccc09e7dd0.png" alt=""></p><p>等温过程和绝热过程的p-V图线很相似，区别在哪里？</p><p><img src="https://pic.imgdb.cn/item/66f266c4f21886ccc0a01b3a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f2686bf21886ccc0a193ae.png" alt=""></p><p>多方过程：</p><p><img src="https://pic.imgdb.cn/item/66f26a3af21886ccc0a31e0b.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f26a49f21886ccc0a3298a.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f26a5af21886ccc0a337a9.png" alt=""></p><h4 id="知识-3">知识</h4><p>准静态过程：无限缓慢，每一个中间状态都无限接近平衡态</p><p>内能是系统的态函数：内能改变只与初、末状态有关，与过程无关</p><p>与之相反的是：</p><p>（1）做功</p><p><img src="https://pic.imgdb.cn/item/66ebdbe2f21886ccc0bbde64.png" alt=""></p><p>（2）热量、传热</p><p><img src="https://pic.imgdb.cn/item/66ebdd28f21886ccc0bd3f30.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ebdd1cf21886ccc0bd32c9.png" alt=""></p><p>（3）物质的比热、热容、摩尔热容都与过程有关！</p><p>改变内能的2种方法：</p><p>（1）做功</p><p>力学作用下转移的能量</p><p>（2）传热</p><p>热学作用下转移的能量</p><p>热力学第一定律的适用条件：</p><p>（1）此定律只要求系统的初、末状态是平衡态</p><p>（2）适用于任何系统（气、液、固）</p><p>汽化热：汽化过程中1mol的吸热量</p><p>水的汽化是等温等压变体积过程</p><p><img src="https://pic.imgdb.cn/item/66ebe20bf21886ccc0c31741.png" alt=""></p><p>气体绝热自由膨胀过程不可能是准静态过程!</p><p><img src="https://pic.imgdb.cn/item/66f26958f21886ccc0a26b7d.png" alt=""></p><p>循环：顺境向外（做功），逆境向内</p><p><img src="https://pic.imgdb.cn/item/66f26ab8f21886ccc0a38deb.png" alt=""></p><p><img src="https://pic.imgdb.cn/item/66f26b06f21886ccc0a3d742.png" alt=""></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;热学微观理论是统计物理。&lt;/p&gt;
-&lt;h2 id=&quot;热平衡态和状态方程&quot;&gt;&lt;a href=&quot;#热平衡态和状态方程&quot; class=&quot;header</summary>
+    <summary type="html">&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
+&lt;p&gt;热学微观理论是统计物理。&lt;/p&gt;
+&lt;h2 id=&quot;热平衡态和状态方程&quot;&gt;热平衡态和状态方程&lt;/h2&gt;
+&lt;h4 id=&quot;公式和常量&quot;&gt;公式和常量&lt;/h4&gt;
+&lt;p&gt;第一个公式含有方向，第二个公式不含方向，表示的是模（注意先取平均再^2和先</summary>
       
     
     
@@ -111,15 +184,16 @@
     <link href="https://zix1a.github.io/posts/1778b12e.html"/>
     <id>https://zix1a.github.io/posts/1778b12e.html</id>
     <published>2024-09-02T08:45:07.000Z</published>
-    <updated>2024-09-18T07:57:12.731Z</updated>
+    <updated>2024-09-24T06:03:04.541Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://pic.imgdb.cn/item/66ea7f55f21886ccc079a4f8.jpg" alt=""></p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>受控源元件：不是真的电源，ui不是给定的时间函数，图标为菱形，是三端元件</p><p>电阻元件：u和i代数关系</p><p>电感元件：产生磁场，储存磁场能量，u是i的微分关系</p><p>电容元件：产生电场，储存电场能量，u是i的积分关系</p><p>电源：u和i相互独立</p><p>开路：i=0，u!=0 伏安特性曲线为y轴（i为x轴，u为y轴）</p><p>短路：i!=0，u=0 伏安特性曲线为x轴</p><p>理想电压源（圆圈竖线）：u和i相互独立，能保证u的变化符合预期，与i无关（恒压源） (不能短路！)伏安特性曲线为恒压</p><p>理想电流源（圆圈横线）：对应   伏安特性曲线为恒流  (不能开路！)（开路相当于连了一个无穷大的电阻，u=iR无穷大了）</p><h3 id="关联-非关联参考方向下的吸收发出功率"><a href="#关联-非关联参考方向下的吸收发出功率" class="headerlink" title="关联/非关联参考方向下的吸收发出功率"></a>关联/非关联参考方向下的吸收发出功率</h3><p>u正向：电压降低方向</p><p>i正向：正电荷移动方向</p><p>关联参考方向（ui参考方向同向）（外电路）、非关联参考方向（电源内部，即电源的参考方向一般设为非关联方向）</p><p>P的定义是吸收功率P=ui</p><p>ui取关联参考方向：P&gt;0实际吸收功率</p><p>ui取非关联参考方向：P&lt;0实际吸收功率</p><p>整个电路吸收功率=发出功率</p><h3 id="电路的分类"><a href="#电路的分类" class="headerlink" title="电路的分类"></a>电路的分类</h3><p>1.集总参数电路（集中参数元件：元件尺寸&lt;&lt;电磁量工作频率的电磁波波长，而无需考虑电磁量的空间分布）（why？电磁波接收的半波定律）、分布参数电路</p><p>2.电阻电路（纯电阻电路，only欧姆定律）、动态电路（稳态分析、暂态分析）</p><p>3.直流电路DC，交流电路AC（正弦激励；周期性非正弦激励：方波信号，脉冲信号）</p><h3 id="基尔霍夫定律"><a href="#基尔霍夫定律" class="headerlink" title="基尔霍夫定律"></a>基尔霍夫定律</h3><p>1.基尔霍夫电流定律KCL（对结点而言）</p><p>在集总参数电路中，任意时刻，对任意结点流出该结点I的代数和=0</p><p>流出取+</p><p>还可以这样用：把一块电路打包成一个电路元件，看成一个节点</p><p>2.基尔霍夫电压定律KVL（对回路而言）</p><p>在集总参数电路中，任意时刻，沿任意回路，所有支路V代数和=0（一圈V求和=0）</p><p>找一个绕行方向，u参考方向与回路方向同时，取+</p><p>推论：</p><p>任意两点间的电压具有确定值，与计算路径无关</p><p>网孔上的KVL方程（or额外包含一个新网孔）是一个新的独立方程</p><p>电路的网孔数，即独立KVL方程个数，=b-n+1（b是支路数，n是节点数）</p><p>巧妙的回路选取！！</p><h3 id="受控源"><a href="#受控源" class="headerlink" title="受控源"></a>受控源</h3><p><img src="https://pic.imgdb.cn/item/66ea81a0f21886ccc07bdd63.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea8191f21886ccc07bd241.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea81c7f21886ccc07bff7d.jpg" alt=""></p><h3 id="电阻的等效变换"><a href="#电阻的等效变换" class="headerlink" title="电阻的等效变换"></a>电阻的等效变换</h3><p>计算等效电阻的几种方法：</p><p>1.电桥平衡法</p><p>适用：有bridge桥段的电路</p><p>什么是电桥？相对于两个端口中间的“河流”横跨在其上的“桥”叫做电桥</p><p>电桥平衡：电桥两端点位相等，可视为开路</p><p><img src="https://pic.imgdb.cn/item/66ea7f76f21886ccc079c537.jpg" alt=""></p><p>2.等电位节点标记法</p><p>适用：规整的网状电路，电阻阻值都相同</p><p><img src="https://pic.imgdb.cn/item/66ea808cf21886ccc07adf9e.jpg" alt=""></p><p>3.定义法</p><p>适用：高度对称，但立体不适合用2，阻值都相同</p><p>R=U/I，常假设一个i，算出一条支路的i（只有高度对称的结构才能轻易得出一条支路的i，一点不对称都很难算出），算出这条支路的U</p><p><img src="https://pic.imgdb.cn/item/66ea82f1f21886ccc07d15c3.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea8405f21886ccc07e2a99.jpg" alt=""></p><p>4.Y型转化为三角形</p><p>适用：多个Y型叠在同一组端口上（1个Y型就是简单电路了）</p><p>当同一组端口上接了2个Y型，转化为三角形后，这两个三角形是并联关系</p><p>画个Y型三角形的图，然后计算：</p><p><img src="https://pic.imgdb.cn/item/66ea876ef21886ccc0814d10.jpg" alt=""></p><p>Y型中3个电阻阻值相等：R三角=3RY</p><p><img src="https://pic.imgdb.cn/item/66ea8454f21886ccc07e74e2.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea8462f21886ccc07e80be.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://pic.imgdb.cn/item/66ea7f55f21886ccc079a4f8.jpg" alt=""></p><h3 id="其他">其他</h3><p>受控源元件：不是真的电源，ui不是给定的时间函数，图标为菱形，是三端元件</p><p>电阻元件：u和i代数关系</p><p>电感元件：产生磁场，储存磁场能量，u是i的微分关系</p><p>电容元件：产生电场，储存电场能量，u是i的积分关系</p><p>电源：u和i相互独立</p><p>开路：i=0，u!=0 伏安特性曲线为y轴（i为x轴，u为y轴）</p><p>短路：i!=0，u=0 伏安特性曲线为x轴</p><p>理想电压源（圆圈竖线）：u和i相互独立，能保证u的变化符合预期，与i无关（恒压源） (不能短路！)伏安特性曲线为恒压</p><p>理想电流源（圆圈横线）：对应   伏安特性曲线为恒流  (不能开路！)（开路相当于连了一个无穷大的电阻，u=iR无穷大了）</p><h3 id="关联-非关联参考方向下的吸收发出功率">关联/非关联参考方向下的吸收发出功率</h3><p>u正向：电压降低方向</p><p>i正向：正电荷移动方向</p><p>关联参考方向（ui参考方向同向）（外电路）、非关联参考方向（电源内部，即电源的参考方向一般设为非关联方向）</p><p>P的定义是吸收功率P=ui</p><p>ui取关联参考方向：P&gt;0实际吸收功率</p><p>ui取非关联参考方向：P&lt;0实际吸收功率</p><p>整个电路吸收功率=发出功率</p><h3 id="电路的分类">电路的分类</h3><p>1.集总参数电路（集中参数元件：元件尺寸&lt;&lt;电磁量工作频率的电磁波波长，而无需考虑电磁量的空间分布）（why？电磁波接收的半波定律）、分布参数电路</p><p>2.电阻电路（纯电阻电路，only欧姆定律）、动态电路（稳态分析、暂态分析）</p><p>3.直流电路DC，交流电路AC（正弦激励；周期性非正弦激励：方波信号，脉冲信号）</p><h3 id="基尔霍夫定律">基尔霍夫定律</h3><p>1.基尔霍夫电流定律KCL（对结点而言）</p><p>在集总参数电路中，任意时刻，对任意结点流出该结点I的代数和=0</p><p>流出取+</p><p>还可以这样用：把一块电路打包成一个电路元件，看成一个节点</p><p>2.基尔霍夫电压定律KVL（对回路而言）</p><p>在集总参数电路中，任意时刻，沿任意回路，所有支路V代数和=0（一圈V求和=0）</p><p>找一个绕行方向，u参考方向与回路方向同时，取+</p><p>推论：</p><p>任意两点间的电压具有确定值，与计算路径无关</p><p>网孔上的KVL方程（or额外包含一个新网孔）是一个新的独立方程</p><p>电路的网孔数，即独立KVL方程个数，=b-n+1（b是支路数，n是节点数）</p><p>巧妙的回路选取！！</p><h3 id="受控源">受控源</h3><p><img src="https://pic.imgdb.cn/item/66ea81a0f21886ccc07bdd63.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea8191f21886ccc07bd241.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea81c7f21886ccc07bff7d.jpg" alt=""></p><h3 id="电阻的等效变换">电阻的等效变换</h3><p>计算等效电阻的几种方法：</p><p>1.电桥平衡法</p><p>适用：有bridge桥段的电路</p><p>什么是电桥？相对于两个端口中间的“河流”横跨在其上的“桥”叫做电桥</p><p>电桥平衡：电桥两端点位相等，可视为开路</p><p><img src="https://pic.imgdb.cn/item/66ea7f76f21886ccc079c537.jpg" alt=""></p><p>2.等电位节点标记法</p><p>适用：规整的网状电路，电阻阻值都相同</p><p><img src="https://pic.imgdb.cn/item/66ea808cf21886ccc07adf9e.jpg" alt=""></p><p>3.定义法</p><p>适用：高度对称，但立体不适合用2，阻值都相同</p><p>R=U/I，常假设一个i，算出一条支路的i（只有高度对称的结构才能轻易得出一条支路的i，一点不对称都很难算出），算出这条支路的U</p><p><img src="https://pic.imgdb.cn/item/66ea82f1f21886ccc07d15c3.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea8405f21886ccc07e2a99.jpg" alt=""></p><p>4.Y型转化为三角形</p><p>适用：多个Y型叠在同一组端口上（1个Y型就是简单电路了）</p><p>当同一组端口上接了2个Y型，转化为三角形后，这两个三角形是并联关系</p><p>画个Y型三角形的图，然后计算：</p><p><img src="https://pic.imgdb.cn/item/66ea876ef21886ccc0814d10.jpg" alt=""></p><p>Y型中3个电阻阻值相等：R三角=3RY</p><p><img src="https://pic.imgdb.cn/item/66ea8454f21886ccc07e74e2.jpg" alt=""></p><p><img src="https://pic.imgdb.cn/item/66ea8462f21886ccc07e80be.jpg" alt=""></p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://pic.imgdb.cn/item/66ea7f55f21886ccc079a4f8.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a</summary>
+&lt;h3 id=&quot;其他&quot;&gt;其他&lt;/h3&gt;
+&lt;p&gt;受控源元件：不是真的电源，ui不是给定的时间函数，图标为菱形，是三端元件</summary>
       
     
     
